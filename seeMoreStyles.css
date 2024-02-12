@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: pink;
+    height: 100vh;
+    padding-inline: 10rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.carta{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.502);
+}
+img{
+    width: 11rem;
+    margin: 1rem;
+    mix-blend-mode: multiply;
+}
