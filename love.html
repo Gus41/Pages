@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <title>Happy btday</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -13,21 +13,27 @@
             <div class="envelope">
                 <div class="letter">
                     <div class="text">
-                        <strong>Dear Person.</strong>
+                        <strong>Happy Bday Puppyto</strong>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Numquam labore omnis minus maiores laboriosam, facere in beatae esse. 
+                            Você é uma pessoa muito especial e unica, nunca deixe os problemas da vida 
+                            apagarem o seu brilho. Ninguem brilha como você.
+                            Seja sempre essa pessoa doce e querida que você é. 
+                            <br>Continue sorrindo pro mundo que logo ele vai sorrir de volta para você
                         </p>
                     </div>
                 </div>
             </div>
+            <a class="seeMore hidden" id="seeMore" href="seeMore.html">Ver mais</a>
             <div class="heart"></div>
         </div>
+        
     </div>
     <script>
         const envelope = document.querySelector('.envelope-wrapper');
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
+            const a = document.getElementById("seeMore")
+            a.classList.toggle("hidden")
         });
     </script>
 </body>
